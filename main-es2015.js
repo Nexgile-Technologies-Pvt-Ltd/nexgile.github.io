@@ -769,13 +769,13 @@ class Utils {
             document.getElementById('preloader').classList.remove('completed');
         }
         const url = [
-            '../assets/vendor/jquery/dist/jquery.min.js',
+            '../assets/vendor/jquery.min.js',
             '../assets/vendor/jquery.countTo.js',
-            '../assets/vendor/bootstrap/dist/js/bootstrap.min.js',
+            '../assets/vendor/bootstrap.min.js',
             '../assets/vendor/waypoints.min.js',
-            '../assets/vendor/WOW/dist/wow.min.js',
+            '../assets/vendor/wow.min.js',
             '../assets/vendor/jquery.parallax-1.1.3.js',
-            '../assets/vendor/magnific/dist/jquery.magnific-popup.min.js',
+            '../assets/vendor/jquery.magnific-popup.min.js',
             '../assets/js/custom.min.js',
             '../assets/js/slider-corporate.js',
             '../assets/js/app.js'
