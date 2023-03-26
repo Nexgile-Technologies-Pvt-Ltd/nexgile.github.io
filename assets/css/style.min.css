@@ -1821,6 +1821,10 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     color: #00A1E4 !important;
 }
 
+.orangetext{
+    color: #f15a29 !important;
+}
+
 .left{
     text-align: left;
 }
