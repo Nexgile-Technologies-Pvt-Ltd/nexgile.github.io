@@ -1797,3 +1797,38 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .tech-stack-card{width:100% !important}
 .intro-container-height{height: 200px;}
 .wrapper{margin-top: 150px;}
+
+.font14{
+    font-size: 14px;
+}
+.font15{
+    font-size: 15px;
+}
+.font16{
+    font-size: 16px;
+}
+
+.footer-about{    
+    padding: 0px 80px;
+    text-align: left;
+}
+
+.yellowtext{
+    color: yellow !important;
+}
+
+.bluetext{
+    color: #00A1E4 !important;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
