@@ -1789,6 +1789,10 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     
     padding: 4px 27px
 }
+.submit-icon{
+    transform: rotate(-30deg);
+    margin-top: -4px;
+}
 
 .tech-stack-card{width:100% !important}
 .intro-container-height{height: 200px;}
