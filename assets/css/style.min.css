@@ -501,8 +501,8 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .info-box-type-4 .btn-revserve{padding:10px 50px;color:#212121;border-color:#212121;background-color:transparent;border-width:2px;line-height:20px;}
 .info-box-type-4 .btn-revserve:hover{color:#fff;}
 .info-box-type-4.info-box-type-4-1 .info-box-thumbnail, .info-box-type-4.info-box-type-4-1 .info-box-content{width:50%;}
-.info-box-type-4.info-box-type-4-1 .info-box-thumbnail img{margin-top:-50px;}
-.info-box-type-4.info-box-type-4-1 .info-box-content{padding-top:100px;margin-bottom:40px;}
+/* .info-box-type-4.info-box-type-4-1 .info-box-thumbnail img{margin-top:-50px;} */
+/* .info-box-type-4.info-box-type-4-1 .info-box-content{padding-top:100px;margin-bottom:40px;} */
 .info-box-type-4.info-box-type-4-2 .info-box-thumbnail, .info-box-type-4.info-box-type-4-2 .info-box-content{width:100%;}
 .info-box-type-4.info-box-type-4-2 .btn{font-size:12px;letter-spacing:0.1em;}
 @media screen and (max-width:991px){.info-box-type-4 .info-box-thumbnail, .info-box-type-4 .info-box-content{width:100%;padding:0 15px;}
