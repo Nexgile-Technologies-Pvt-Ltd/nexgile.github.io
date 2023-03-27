@@ -310,7 +310,7 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 }
 .icon-box-type-3{margin-bottom:40px;}
 .icon-box-type-3 .icon-box-header{width:110px;height:110px;position:relative;float:left;}
-.icon-box-type-3 .icon-box-header .icon-box-icon{position:relative;background-color:#F15A29;width:160px;height:160px;display:inline-block;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;transition:all 0.3s ease;}
+.icon-box-type-3 .icon-box-header .icon-box-icon{position:relative;width:160px;height:160px;display:inline-block;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;transition:all 0.3s ease;}
 .icon-box-type-3 .icon-box-header .icon-box-icon:before{content:"";position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);transform:translate(-50%, -50%);width:100%;height:100%;background-color:transparent;border:4px solid #F15A29;z-index:0;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;opacity:0;visibility:hidden;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;transition:all 0.3s ease;}
 /* .icon-box-type-3 .icon-box-header .icon-box-icon i{display:block;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);transform:translate(-50%, -50%);z-index:20;font-size:40px;color:#fff;} */
 .icon-box-type-3 .icon-box-header .icon-box-icon:hover{cursor:pointer;}
@@ -1501,11 +1501,11 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 #our-services .icon-box-intro .icon-box-intro-header .icon-box-intro-icon i{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);transform:translate(-50%, -50%);font-size:40px;color:#333;}
 #our-services .icon-box-intro .icon-box-intro-header h4{color:#333;font-size:30px;font-weight:400;font-family:"Poppins", sans-serif;line-height:1.25em;letter-spacing:0px;margin-bottom:10px;}
 #our-services .icon-box-intro .icon-box-intro-header p{color:#797979;}
-#our-services .icon-box-intro .icon-box-type-3 .icon-box-header .icon-box-icon{background-color:#f4f4f4;}
+/* #our-services .icon-box-intro .icon-box-type-3 .icon-box-header .icon-box-icon{background-color:#f4f4f4;} */
 #our-services .icon-box-intro .icon-box-type-3 .icon-box-header .icon-box-icon i{color:#797979;font-size:30px;}
 #our-services .icon-box-intro .icon-box-type-3 .icon-box-content .icon-box-title{color:#212121;font-size:16px;}
 #our-services .icon-box-intro .icon-box-type-3 .icon-box-content p{font-size:13px;}
-#our-services .icon-box-intro .icon-box-type-3:hover .icon-box-header .icon-box-icon{background-color:#F15A29;}
+/* #our-services .icon-box-intro .icon-box-type-3:hover .icon-box-header .icon-box-icon{background-color:#F15A29;} */
 #our-services .icon-box-intro .icon-box-type-3:hover .icon-box-header .icon-box-icon i{color:#fff;}
 @media screen and (max-width:991px){#our-services .icon-box-intro .icon-box-intro-image{text-align:left;}
 }
@@ -1911,4 +1911,35 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 
 .whyhows{
     margin-top: -65px;
+}
+.yellow-background {
+    background-color: yellow;
+}
+.pink-background {
+    background-color: pink;
+}
+.magenta-background {
+    background-color: magenta;
+}
+.cyan-background {
+    background-color: cyan;
+}
+.goldenrod-background {
+    background-color: goldenrod;
+}
+.chartreuse-background {
+    background-color: chartreuse;
+}
+.royalblue-background {
+    background-color: #4169e1;
+}
+.hotpink-background {
+    background-color: #FF69B4;
+}
+.dodgerblue-background {
+    background-color: dodgerblue;
+}
+.orange-background:hover {
+    background-color: #F15A29;
+    transform: scale(1.1);
 }
