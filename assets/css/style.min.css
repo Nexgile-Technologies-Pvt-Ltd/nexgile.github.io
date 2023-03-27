@@ -1954,3 +1954,9 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     background-color: #F15A29;
     transform: scale(1.1);
 }
+.background-size-cover {
+    background-size: cover !important;
+}
+.background-position-center {
+    background-position: center !important;
+}
