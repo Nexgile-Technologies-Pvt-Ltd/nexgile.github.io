@@ -1865,6 +1865,10 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     font-size: 16px;
 }
 
+.font30{
+    font-size: 30px;
+}
+
 .footer-about{    
     padding: 0px 0px;
     text-align: left;
@@ -1876,6 +1880,10 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 
 .bluetext{
     color: #007bff !important
+}
+
+.blacktext{
+    color: #505050 !important
 }
 
 .orangetext{
@@ -1899,4 +1907,8 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     flex-wrap: wrap;
     margin-left: 0px;
     margin-top: 0px;
+}
+
+.whyhows{
+    margin-top: -65px;
 }
