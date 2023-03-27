@@ -1811,6 +1811,17 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     }
 }
 
+@media screen and (max-width:991px){
+    .home-card-style-mt{
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .card-style-h{
+        height: 192px;
+    }
+}
+
 
 .pocinnerwrapper{
     padding: 35px 20px;
