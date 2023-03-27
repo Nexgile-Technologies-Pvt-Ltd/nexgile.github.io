@@ -1815,10 +1815,12 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 
 .yellowtext{
     color: yellow !important;
+    font-weight: 200 !important;
 }
 
 .bluetext{
-    color: #00A1E4 !important;
+    color: #004765 !important;
+    font-weight: 200 !important;
 }
 
 .orangetext{
