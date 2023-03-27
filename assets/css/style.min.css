@@ -1830,6 +1830,31 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .intro-container-height{height: 200px;}
 .wrapper{margin-top: 150px;}
 
+.fw200{    
+    font-weight: 200 !important;
+}
+
+.fw400{    
+    font-weight: 400 !important;
+}
+
+.fw500{    
+    font-weight: 500 !important;
+}
+
+.fw600{    
+    font-weight: 600 !important;
+}
+
+.fw800{    
+    font-weight: 800 !important;
+}
+
+.fw900{    
+    font-weight: 900 !important;
+}
+
+
 .font14{
     font-size: 14px;
 }
@@ -1847,12 +1872,10 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 
 .yellowtext{
     color: yellow !important;
-    font-weight: 200 !important;
 }
 
 .bluetext{
-    color: #004765 !important;
-    font-weight: 200 !important;
+    color: #007bff !important
 }
 
 .orangetext{
