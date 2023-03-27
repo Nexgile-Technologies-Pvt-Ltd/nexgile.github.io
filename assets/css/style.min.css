@@ -1217,7 +1217,7 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .icon-box-3 .icon-box-3-thumbnail img{display:block;}
 .icon-box-3 .icon-box-3-content{width:100%;}
 }
-@media screen and (max-width:480px){.icon-box-3 .icon-box-3-content{padding:30px 20px;}
+@media screen and (max-width:480px){.icon-box-3 .icon-box-3-content{padding:30px 20px;} 
 }
 .icon-box-4 .icon-box-4-header{margin-bottom:60px;}
 .icon-box-4 .icon-box-4-header .icon-box-4-icon{margin-bottom:20px;}
@@ -1778,6 +1778,16 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .divider.divider-line-heading .line-middle:before{left:-20px;}
 .divider.divider-line-heading .line-middle:after{right:-20px;}
 @media screen and (min-width:1200px){.container{max-width:1200px;}
+}
+
+.margin-top{
+    margin-top: 50px;
+}
+@media screen and (max-width:767px){
+    .img-style-margin{
+        margin-bottom: 0 !important;
+    }
+
 }
 
 .pocinnerwrapper{
