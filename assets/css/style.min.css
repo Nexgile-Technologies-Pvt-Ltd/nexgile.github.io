@@ -1819,7 +1819,7 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 }
 
 .footer-about{    
-    padding: 0px 80px;
+    padding: 0px 0px;
     text-align: left;
 }
 
@@ -1847,4 +1847,11 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 
 .center{
     text-align: center;
+}
+
+.row-margin-override {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-top: 0px;
 }
