@@ -319,8 +319,8 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .icon-box-type-3 .icon-box-content .icon-box-title{margin-bottom:15px;font-size:20px;color:#212121;font-weight:700;text-transform:uppercase;}
 .icon-box-type-3 .icon-box-content p{color:#797979;font-size:14px;font-weight:400;font-family:"Poppins", sans-serif;line-height:1.8em;margin-bottom:0px;}
 /* .icon-box-type-3.icon-box-type-3-inverse .icon-box-header, .icon-box-type-3.icon-box-type-3-inverse .icon-box-content{float:right;text-align:right;} */
-@media screen and (max-width:991px){.icon-box-type-3.icon-box-type-3-inverse .icon-box-header, .icon-box-type-3.icon-box-type-3-inverse .icon-box-content{float:left;text-align:left;}
-}
+/* @media screen and (max-width:991px){.icon-box-type-3.icon-box-type-3-inverse .icon-box-header, .icon-box-type-3.icon-box-type-3-inverse .icon-box-content{float:left;text-align:left;}
+} */
 .icon-box-type-3.icon-box-type-3-green .icon-box-header .icon-box-icon{background-color:#50BC54;}
 .icon-box-type-3.icon-box-type-3-green .icon-box-header .icon-box-icon:before{width:150%;height:150%;border:4px solid #50BC54;}
 .icon-box-type-3.icon-box-type-3-green .icon-box-header .icon-box-icon:hover{cursor:pointer;}
@@ -1961,3 +1961,44 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .background-position-center {
     background-position: center !important;
 }
+.top-50 {
+    top: 50%;
+}
+.top-60 {
+    top: 60%;
+}
+.left-50 {
+    left: 50%;
+}
+.left-60 {
+    left: 60%;
+}
+.balloon-animation-right {
+    animation: float-right 5s ease-in-out infinite;
+  }
+  @keyframes float-right {
+    0% {
+      transform: translateX(0) translateY(0) scale(1);
+    }
+    50% {
+      transform: translateX(20px) translateY(-30px) scale(1.1);
+    }
+    100% {
+      transform: translateX(0) translateY(0) scale(1);
+    }
+  }
+
+  .balloon-animation-left {
+    animation: float-left 5s ease-in-out infinite;
+  }
+  @keyframes float-left {
+    0% {
+      transform: translateX(0) translateY(0) scale(1);
+    }
+    50% {
+      transform: translateX(-20px) translateY(-30px) scale(1.1);
+    }
+    100% {
+      transform: translateX(0) translateY(0) scale(1);
+    }
+  }
