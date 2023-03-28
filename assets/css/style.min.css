@@ -1817,6 +1817,7 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
         margin-top: 50px;
     }
 }
+
 @media only screen and (min-width:992px) and (max-width:1199px){
     .card-style-h{
         height: 192px;
@@ -1973,6 +1974,9 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .left-60 {
     left: 60%;
 }
+.footer-heading-bg-color {
+    background-color: #f15a29;
+}
 .balloon-animation-right {
     animation: float-right 5s ease-in-out infinite;
   }
@@ -2000,5 +2004,12 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     }
     100% {
       transform: translateX(0) translateY(0) scale(1);
+    }
+  }
+
+  @media only screen and (min-width: 1000px){
+    .footer-header-d-none{
+        display: none;
+
     }
   }
