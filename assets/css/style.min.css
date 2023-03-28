@@ -1792,6 +1792,7 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
         margin-bottom: 50px;
         margin-left: 71px;
     }
+   
 
 }
 
@@ -1811,7 +1812,7 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     }
 }
 
-@media screen and (max-width:991px){
+@media only screen and (min-width:768px) and (max-width:991px){
     .home-card-style-mt{
         margin-top: 50px;
     }
