@@ -1817,7 +1817,6 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
         margin-top: 50px;
     }
 }
-
 @media only screen and (min-width:992px) and (max-width:1199px){
     .card-style-h{
         height: 192px;
@@ -1877,9 +1876,11 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .font16{
     font-size: 16px;
 }
-
 .font30{
     font-size: 30px;
+}
+.font210{
+    font-size: 210px;
 }
 
 .footer-about{    
@@ -1956,17 +1957,32 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     background-color: #F15A29;
     transform: scale(1.1);
 }
+.orange-background:hover div {
+    display: block !important;
+}
 .background-size-cover {
     background-size: cover !important;
 }
 .background-position-center {
     background-position: center !important;
 }
+.top-40 {
+    top: 40%;
+}
 .top-50 {
     top: 50%;
 }
 .top-60 {
     top: 60%;
+}
+.topm-135 {
+    top: -135%;
+}
+.left-10{
+    left: 10%;
+}
+.left-30 {
+    left: 30%;
 }
 .left-50 {
     left: 50%;
@@ -2012,4 +2028,28 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
         display: none;
 
     }
+  }
+  .width-150 {
+    width: 150px !important;
+  }
+  .width-140 {
+    width: 140px !important;
+  }
+  .width-130 {
+    width: 130px !important;
+  }
+  .width-120 {
+    width: 120px !important;
+  }
+  .height-150 {
+    height: 150px !important;
+  }
+  .height-140 {
+    height: 140px !important;
+  }
+  .height-130 {
+    height: 130px !important;
+  }
+  .height-120 {
+    height: 120px !important;
   }
