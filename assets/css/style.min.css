@@ -1866,7 +1866,9 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     font-weight: 900 !important;
 }
 
-
+.font13{
+    font-size: 13px;
+}
 .font14{
     font-size: 14px;
 }
@@ -1978,6 +1980,12 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .topm-135 {
     top: -135%;
 }
+.topm-145 {
+    top: -145%;
+}
+.topm-155 {
+    top: -155%;
+}
 .left-10{
     left: 10%;
 }
@@ -2052,4 +2060,7 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
   }
   .height-120 {
     height: 120px !important;
+  }
+  .cloud-color {
+    color: #ece6e6;
   }
