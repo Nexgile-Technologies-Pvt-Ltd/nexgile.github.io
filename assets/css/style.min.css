@@ -1884,6 +1884,9 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
 .font210{
     font-size: 210px;
 }
+.font250{
+    font-size:250px
+}
 
 .footer-about{    
     padding: 0px 0px;
@@ -2062,5 +2065,5 @@ html .bg-parallax{background-attachment:fixed !important;background-repeat:no-re
     height: 120px !important;
   }
   .cloud-color {
-    color: #ece6e6;
+    color: white;
   }
